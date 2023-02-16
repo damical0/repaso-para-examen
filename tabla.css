@@ -1,0 +1,25 @@
+header{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    text-align: center;
+}
+td{
+    height: 25px;
+    width: 25px;
+}
+div{
+color: red;
+display: inline-block;
+}
+tfoot{
+    font-weight: bold;
+}
+thead{
+    font-weight: bold;
+}
+table{
+    border: 1px solid blue;
+}

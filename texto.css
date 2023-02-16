@@ -1,0 +1,46 @@
+h1{
+    color: pink;
+    text-align: center;
+    text-decoration: underline;
+}
+h1:hover{
+    background-color: pink;
+    color: white;
+}
+mark{
+    color: pink;
+    background-color: black;
+}
+div{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-size: x-large;
+    border: 2px solid black;
+}
+span{
+    font-style: italic;
+}
+div.abajo{
+    color: blueviolet;
+    background-color: blueviolet;
+    display: block;
+}
+div.uno{
+    display: inline;
+    position: relative;
+}
+div.dos{
+    display: inline;
+    position: relative;
+}
+div.tres{
+    display: inline;
+    position: relative;
+}
+blockquote{
+    color: palevioletred;
+}
+blockquote:hover{
+    color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="form.css">
+<head>
+</head>
+<body>
+    <header>
+        <h1>En esta pagina tienes las <em>Formularios</em></h1>
+    </header>
+    <main>
+        <p><u><b>Formularios</b></u></p>
+        <form action="practica.php">
+            Nombre: <input class="nombre" type="text" name="Nombre" placeholder="tu nombre">
+            <br>
+            Apellido: <input class="apellido" type="text" name="apellido" placeholder="tus apellidos">
+            <br>
+            Fecha de nacimiento: <input class="fecha" type="date" name="fecha" value="fecha">
+            <br>
+            Eres mayor de edad? <input type="checkbox" name="+18" value="+18">
+            <br>
+            Edad: <input type="number" name="edad" min="18" placeholder="Tienes que ser mayor de edad">
+            <br>
+            Cita: <input type="date" name="fehca"> <input type="time" name="cita">
+            <br>
+            Color: <input type="color" name="color">
+            <br>
+            Kilometros de distancia: <input type="range" name="distancia">
+            <br>
+            Documentos: <input type="file" name="archivo">
+            <br>
+            Algo que añadir?: <input type="textarea" name="mensaje" placeholder="Escribe aqui...">
+            <br>
+            Elija: <select name="color">
+                <option value="rojo">Rojo</option>
+                <option value="azul"></option>
+            </select>
+           <br> <br> <input type="submit" name="enviar" value="Envia"><input type="reset" name="reset" value="Borra">
+        </form>
+    </main>
+</body>
+</html>

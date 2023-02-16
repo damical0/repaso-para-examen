@@ -1,0 +1,16 @@
+p{
+    font-size: x-large;
+}
+body{
+    background-color: aqua;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+input.fecha{
+    width: 105px;
+}
+input.nombre,input.apellido{
+    width: 180px;
+}

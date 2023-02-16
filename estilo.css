@@ -1,0 +1,37 @@
+h1{
+    background-color: antiquewhite;
+    color: green;
+}
+h1:hover{
+    color: purple;
+}
+h2{
+    text-decoration: underline;    
+}
+span{
+    color: red;
+    
+}
+input.envia{
+    position: relative;
+    top: 50px;
+}
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+ul{
+    text-align: left;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: black;
+    background-color: yellow;
+}
+iframe{
+    width: 475px;
+    height: 300px;
+}
+
